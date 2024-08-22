@@ -1,0 +1,75 @@
+body {
+ background-image: url("./wallpaper\ morado.webp");
+ background-size: contain;
+ background-size: cover;
+ background-repeat: no-repeat;
+ font-family: sans-serif;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.loginbox {
+    width: 350px;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(204, 0, 255, 0.1);
+    text-align: center;
+}
+.logincontain {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  margin-bottom: 10px;
+}
+.inputgroup {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.password {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.loginbutton {
+  
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.sociallogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.socialicons {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
+.signuplink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: blueviolet;
+    text-decoration: double;
+    margin-bottom: 10px;
+
+}
+

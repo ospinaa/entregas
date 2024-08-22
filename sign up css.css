@@ -1,0 +1,48 @@
+body {
+    background-image: url("./wallpaper\ sign\ up.jpg");
+background-size: contain;
+background-size: cover;
+background-repeat: no-repeat;
+font-family: sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.signupcontain {
+    background-color: aliceblue;
+    height: 600px;
+    width: 450px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    flex-direction: column;
+
+}
+.company {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+}
+.imgperson {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    margin-bottom: 10px;
+
+}
+.email {
+   margin-bottom: 10px;
+}
+.password {
+    margin-bottom: 10px;
+}
+.verification {
+    margin-bottom: 10px;
+}
